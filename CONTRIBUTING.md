@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/webtown-php/doctrine-schema-update-bundle).
+We accept contributions via Pull Requests on [Github](https://github.com/webtown-php/DoctrineSchemaUpdateBundle).
 
 
 ## Pull Requests

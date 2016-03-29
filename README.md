@@ -6,8 +6,24 @@ This bundle are blocking the `doctrine:schema:update` command.
 
 Via Composer
 
+Register in composer:
+
+``` json
+    "require": {
+        // ...
+        "webtown/doctrine-schema-update-bundle": "~1.0",
+        // ...
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:webtown-php/DoctrineSchemaUpdateBundle.git"
+        }
+    ],
+```
+
 ``` bash
-$ composer require webtown/doctrine-schema-update-bundle
+$ composer update webtown/doctrine-schema-update-bundle
 ```
 
 And register in the `app/AppKernel.php`, **AFTER** the `DoctrineBundle`:

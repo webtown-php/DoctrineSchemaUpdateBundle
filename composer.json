@@ -5,7 +5,7 @@
     "keywords": [
         "doctrine"
     ],
-    "homepage": "https://github.com/webtown-php/doctrine-schema-update-bundle.git",
+    "homepage": "https://github.com/webtown-php/DoctrineSchemaUpdateBundle.git",
     "license": "MIT",
     "authors": [
         {
