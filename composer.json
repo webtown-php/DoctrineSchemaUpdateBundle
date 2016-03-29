@@ -1,0 +1,43 @@
+{
+    "name": "webtown/doctrine-schema-update-bundle",
+    "type": "symfony-bundle",
+    "description": "Disable the doctrine:schema:update command. Force using migration method.",
+    "keywords": [
+        "doctrine"
+    ],
+    "homepage": "https://github.com/webtown-php/doctrine-schema-update-bundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krisztián Ferenczi",
+            "email": "ferenczi.krisztian@webtown.hu",
+            "homepage": "http://webtown.hu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "doctrine/doctrine-bundle": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webtown\\DoctrineSchemaUpdateBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webtown\\DoctrineSchemaUpdateBundle\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
